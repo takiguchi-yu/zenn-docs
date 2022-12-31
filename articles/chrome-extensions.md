@@ -3,7 +3,7 @@ title: "Chrome Extensions"
 emoji: "🦁"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["Chrome"]
-published: false
+published: true
 ---
 
 # Chrome Extensions
