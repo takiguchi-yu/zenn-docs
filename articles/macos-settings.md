@@ -74,8 +74,8 @@ https://sugarsugar.conf.jp/wireshark%E3%81%AE%E3%83%95%E3%82%A3%E3%83%AB%E3%82%B
 
 時刻列を jst に変更
 
-<img src="https://storage.googleapis.com/zenn-user-upload/aae0a8f875c7-20221231.jpg" width=250>
-<img src="https://storage.googleapis.com/zenn-user-upload/a1ef95bcb9dd-20221231.png" width=250>
+![](https://storage.googleapis.com/zenn-user-upload/aae0a8f875c7-20221231.jpg)
+![](https://storage.googleapis.com/zenn-user-upload/a1ef95bcb9dd-20221231.png)
 
 ### pssh 
 
@@ -223,5 +223,4 @@ set editing-mode vi
 
 ## スマート引用符をオフにする
 
-<img src="https://storage.googleapis.com/zenn-user-upload/edf0bbbb6eae-20221231.jpg" width=250>
-
+![](https://storage.googleapis.com/zenn-user-upload/edf0bbbb6eae-20221231.jpg)
