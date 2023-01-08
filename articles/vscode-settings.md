@@ -31,6 +31,7 @@ published: false
 * HTML CSS Support
 * indent-rainbow
 * isort
+* Tailwind CSS IntelliSense
 * JS JSX Snippets
 * Live Server
 * Live Share
