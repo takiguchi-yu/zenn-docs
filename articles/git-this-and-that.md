@@ -6,40 +6,6 @@ topics: ["git"]
 published: false
 ---
 
-# ~/.gitconfig
-```conf
-[core]
-	excludesfile = ~/.gitignore_global
-	quotepath = false
-	hooksPath = ~/githooks
-[color]
-	status = auto
-
-[user]
-	name = 名前
-	email = メアド
-[commit]
-	template = ~/.stCommitMsg
-[push]
-	default = nothing
-[alias]
-	st = status
-	br = branch
-	co = checkout
-	cm = commit
-	fp = fetch --prune
-	lo = log --oneline
-	lg = log --pretty=format:'%C(red)%h %C(reset)(%cd) %C(green)%an %Creset%s %C(yellow)%d%Creset' --graph --date=relative --name-status
-	la = log --pretty=format:'%Cgreen%h %Creset%cd %Cblue[%cn] %Creset%s%C(yellow)%d%C(reset)' --graph --date=relative --decorate --all
-	df = "!git la | peco | awk '{print $2}' | xargs -I {} git diff {}^ {}"
-[grep]
-	lineNumber = true
-[merge]
-	ff = false
-[pull]
-	ff = only
-```
-
 # コマンドラインで新しいリポジトリを作成する
 ```bash
 echo "# hogehoge" >> README.md
