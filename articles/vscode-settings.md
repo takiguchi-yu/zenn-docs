@@ -44,6 +44,7 @@ published: false
 * PlantUML
 * Prettier - Code formatter
 * Project Manager
+* Prisma
 * Pylance
 * Python
 * Remote - SSH
