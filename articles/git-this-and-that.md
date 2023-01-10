@@ -448,3 +448,13 @@ git remote add origin git@github.com:ユーザー名/リポジトリ名.git
 ```bash
 git remote set-url origin git@github.com:ユーザー名/リポジトリ名.git
 ```
+
+## 特定ディレクトリのコミット履歴を参照
+```bash
+git log -- <path>
+
+# 例
+git log -- . # カレントディレクトリ
+git log -- css # css ディレクトリ
+git log -- css js # css と js ディレクトリ
+```
