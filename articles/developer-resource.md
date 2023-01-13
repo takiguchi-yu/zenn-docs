@@ -77,6 +77,9 @@ https://www.remove.bg/ja
 
 # 配色ツール
 
+■ Colour Palette Generator
+https://www.colourpalettegenerator.com/
+
 ■ Color Spectrum  
 https://colorspectrum.design/generator.html
 
