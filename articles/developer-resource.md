@@ -56,10 +56,19 @@ https://tinypng.com/
 ■ Img2go  
 https://www.img2go.com/compress-image
 
-# 無料のビデオ
+# 動画素材サイト
 
-■ mmixkit  
+■ mmixkit（無料）
 https://mixkit.co/
+
+■ pixabay（無料）
+https://pixabay.com/videos/
+
+■ Adobe Stock（有料）
+https://stock.adobe.com/
+
+■ Youtuberのための素材屋さん（無料）
+https://ytsozaiyasan.com/
 
 # 無料で背景を削除
 
