@@ -90,6 +90,10 @@ https://placehold.jp/
 
 https://picsum.photos/
 
+## とりあえず json がほしいとき...
+
+https://dummyjson.com/
+
 ## Slidesgo(Googleスライドのテンプレート集)
 
 春は自己紹介をする機会も多いのかなぁと思います。そんなときはこちらから Cool なテンプレートを見つけてみてください。
