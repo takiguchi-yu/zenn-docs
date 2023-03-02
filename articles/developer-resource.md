@@ -39,6 +39,9 @@ https://www.pexels.com/ja-jp/
 ■ Pixabay  
 https://pixabay.com/ja/
 
+■ freepik
+https://www.freepik.com/
+
 ■ Vectorove  
 ベクターイラストコレクション  
 https://vectorove.com/
