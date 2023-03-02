@@ -60,3 +60,4 @@ published: false
 * Todo Tree
 * Version Lens
 * YAML
+* blockman

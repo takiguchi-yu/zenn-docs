@@ -245,10 +245,6 @@ git merge <ブランチ名>
 ## コミットログ残す
 git merge --no-ff <ブランチ名>
 
-# サブモジュールが空の場合
-git submodule init
-git submodule update
-
 # branch 削除
 ## ローカルブランチの削除
 ### マージ済み場合
@@ -318,6 +314,12 @@ patch -p1 < hoge.php.patch
 -p1 は1階層上から差分取り込みを実行する
 -p0 とするとpatchを充てる対象のディレクトリで実行する場合に使う
 
+# サブモジュールを追加
+git submodule add <リポジトリ名>
+
+# サブモジュールが空の場合
+git submodule init
+git submodule update
 # サブモジュールを持ってくる
 
 git submodule update
