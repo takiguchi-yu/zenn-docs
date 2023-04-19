@@ -460,3 +460,9 @@ git log -- . # カレントディレクトリ
 git log -- css # css ディレクトリ
 git log -- css js # css と js ディレクトリ
 ```
+
+## ファイルの追跡(トラッキング)をやめたいとき
+--cached を付けて commit すると論理的にファイルを削除ができる
+```bash
+git rm --cached [FILE-NAME]
+```

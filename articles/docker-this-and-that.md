@@ -37,8 +37,13 @@ docker run -d cnetos_php53:1.0
 
 # コンテナが起動していることを確認
 docker ps
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
-a9337cd1cef7     
+docker container ls
+
+# コンテナを起動する
+docker start {コンテナ名}
+
+# 起動しているコンテナに入る場合
+docker exec -it {コンテナ名} bash
 
 # docker-compose でイメージをビルドし直して起動
 docker-compose up --build
