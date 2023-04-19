@@ -51,6 +51,12 @@ https://iconscout.com/free-illustrations
 https://iconscout.com/illustrations  
 https://storyset.com/  
 
+■ ヒューマンピクトグラム
+https://pictogram2.com/
+
+■ AIが素材を生成
+https://aisozai.com/
+
 # 無料の画像解像度コンプレッサー
 
 ■ TinyPNG  
