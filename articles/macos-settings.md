@@ -1,8 +1,8 @@
 ---
-title: "Mac Settings"
-emoji: "💨"
-type: "idea" # tech: 技術記事 / idea: アイデア
-topics: ["Mac"]
+title: 'Mac Settings'
+emoji: '💨'
+type: 'idea' # tech: 技術記事 / idea: アイデア
+topics: ['Mac']
 published: true
 ---
 
@@ -10,7 +10,7 @@ published: true
 
 ## mac のパッケージマネージャ homebrew を入れる
 
-Homebrewをインストールする
+Homebrew をインストールする
 
 https://brew.sh/index_ja.html
 
@@ -57,6 +57,7 @@ wireshark
 ```
 
 フィルタ
+
 ```bash
 # ホストとプロトコルでフィルタをする場合（host=local-biz.gnavi.co.jp、プロトコル=http）
 http.host == local-biz.gnavi.co.jp and http
@@ -70,6 +71,7 @@ frame.time >= "2020-10-30 21:30:00" and frame.time <= "2020-10-30 21:40:00"
 # 特定の文字列でフィルタ
 frame contains "test"
 ```
+
 https://sugarsugar.conf.jp/wireshark%E3%81%AE%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC
 
 時刻列を jst に変更
@@ -77,7 +79,7 @@ https://sugarsugar.conf.jp/wireshark%E3%81%AE%E3%83%95%E3%82%A3%E3%83%AB%E3%82%B
 ![](https://storage.googleapis.com/zenn-user-upload/aae0a8f875c7-20221231.jpg)
 ![](https://storage.googleapis.com/zenn-user-upload/a1ef95bcb9dd-20221231.png)
 
-### pssh 
+### pssh
 
 複数サーバに一括ログインをしてヒアドキュメントを実行
 
@@ -154,7 +156,7 @@ mac 標準の sed は BSD sed と言って微妙に使い物にならないの�
 brew install gnu-sed
 ```
 
-### MySQL用CLI
+### MySQL 用 CLI
 
 ```bash
 brew update && brew install mycli
@@ -166,14 +168,15 @@ brew update && brew install mycli
 brew install keycastr --cask
 ```
 
-### icnsファイルを作成
+### icns ファイルを作成
 
-通常Macのアプリケーションバンドル(.app)の中には、そのアプリのアイコンとして「icns」ファイルが格納されている
+通常 Mac のアプリケーションバンドル(.app)の中には、そのアプリのアイコンとして「icns」ファイルが格納されている
 
 ```bash
 $ brew install makeicns
 $ makeicns -in icon.png -out icon.icns
 ```
+
 https://softantenna.com/blog/makeicns/
 
 ### colima （DockerDesktop の代替）
@@ -188,6 +191,7 @@ colima start --cpu 1 --memory 2 --disk 10
 # 停止
 colima stop
 ```
+
 https://github.com/abiosoft/colima
 
 ## すべてのアプリケーションの実行を許可
@@ -223,4 +227,8 @@ set editing-mode vi
 
 ## スマート引用符をオフにする
 
-![](https://storage.googleapis.com/zenn-user-upload/edf0bbbb6eae-20221231.jpg)
+<img src="https://storage.googleapis.com/zenn-user-upload/edf0bbbb6eae-20221231.jpg" width=500px>
+
+## Docker
+
+DockerDesktop が有料になったので、代わりに [OrbStack](https://orbstack.dev/download) が使いやすい。
